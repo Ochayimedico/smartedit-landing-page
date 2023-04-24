@@ -1,0 +1,8 @@
+/* * {
+  align-items: center;
+} */
+body {
+  align-items: center;
+  margin: 1%;
+  box-sizing: border-box;
+}
