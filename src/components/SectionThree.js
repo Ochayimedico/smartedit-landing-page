@@ -76,16 +76,16 @@ export default function SectionThree() {
         <p className="capitalize font-[600]">I will show you</p>
         <ul>
           <li>
-            <img className="inline" src={checkmark} alt="check" />
-            How to create stunning videos
+            <img className="inline" src={checkmark} alt="check" /> How to create
+            stunning videos
           </li>
           <li>
-            <img className="inline" src={checkmark} alt="check" />
-            How to edit them
+            <img className="inline" src={checkmark} alt="check" /> How to edit
+            them
           </li>
           <li>
-            <img className="inline" src={checkmark} alt="check" />
-            Ways to monetise the skills
+            <img className="inline" src={checkmark} alt="check" /> Ways to
+            monetise the skills
           </li>
         </ul>
         <p className="mt-[8px]">

@@ -47,6 +47,17 @@ export default function Faqs() {
   return (
     <>
       <SectionSeven faqs={frequentlyAskedQuestions} />
+      <div className="font-bold ">
+        <p className="mb-[4px]">
+          Offer to expire soon! Grab this offer for just $10 ($20) today. Start
+          creating/editing stunning videos for your business and say goodbye to
+          chasing your customers away with scrappy videos.
+        </p>
+        <p className="mb-[4px]">
+          Also, start making a lot of money creating videos for other
+          businesses.
+        </p>
+      </div>
     </>
   );
 }

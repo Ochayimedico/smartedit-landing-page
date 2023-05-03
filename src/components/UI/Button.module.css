@@ -1,0 +1,20 @@
+.button {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.button:hover {
+  animation: none;
+  border: 0.15rem solid #004777;
+  color: #004777;
+}

@@ -1,9 +1,11 @@
 import Button from "./UI/Button";
+import Email from "./UI/Email";
 
 export default function SectionSix() {
   return (
     <>
       <div>
+        <Email />
         <p>
           Price goes back up to ₦15000 from
           <span className="text-[#004777] font-[600]">
