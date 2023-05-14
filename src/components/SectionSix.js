@@ -1,5 +1,5 @@
 import Button from "./UI/Button";
-import Email from "./UI/Email";
+import Email from "./email/Email";
 
 export default function SectionSix() {
   return (

@@ -24,17 +24,17 @@ export default function SectionSeven({ faqs }) {
             className="mt-[8px] flex flex-col space-between mb-[8px]"
           >
             <div
-              className={`flex flex-row space-between bg-[#004777]  p-[0.5rem] rounded-[0.25rem] bg-gradient-to-r hover:from-[#004777] hover:to-[#0078c9] cursor-pointer ${
+              className={`flex flex-row justify-between bg-[#004777]  p-[0.5rem] rounded-[0.25rem] bg-gradient-to-r hover:from-[#004777] hover:to-[#0078c9] cursor-pointer ${
                 isOpen === id ? "rounded-b-[0]" : "rounded-[0.25rem]"
               }`}
               onClick={() => collapsibleHandler(id)}
             >
+              <h2 className="text-[#f4ff5f] font-[700] ">{faq.question}</h2>
               <img
-                className="mr-[8px] max-h-[22px] max-w-[22px]"
+                className="max-h-[22px] max-w-[22px]"
                 src={`${isOpen === id ? collapse : expand}`}
                 alt="collapse button"
               />
-              <h2 className="text-[#f4ff5f] font-[700] ">{faq.question}</h2>
             </div>
             <p
               className={`p-[1rem] border-[1.5px] border-[#004777] border-t-0 border-solid rounded-b-[0.25rem] ${
