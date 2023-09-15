@@ -2,16 +2,16 @@ import SectiionFive from "./SectionFive";
 export default function Bonus() {
   const bonus = [
     { id: 1, number: "1", content: "Certificate Upon Completion" },
-    { id: 1, number: "2", content: "One Month Free Mentorship" },
-    { id: 1, number: "3", content: "Upwork Ebook" },
-    { id: 1, number: "4", content: "Copywriting Books" },
+    { id: 2, number: "2", content: "One Month Free Mentorship" },
+    { id: 3, number: "3", content: "Upwork Ebook" },
+    { id: 4, number: "4", content: "Copywriting Books" },
     {
-      id: 1,
+      id: 5,
       number: "5",
       content: "How to Create Google Forms and Shorten Links",
     },
-    { id: 1, number: "6", content: "Content Calendar" },
-    { id: 1, number: "7", content: "Support Groups" },
+    { id: 6, number: "6", content: "Content Calendar" },
+    { id: 7, number: "7", content: "Support Groups" },
   ];
   return (
     <>

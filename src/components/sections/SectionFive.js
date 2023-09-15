@@ -1,5 +1,5 @@
-import grafikThree from "../pics/grafik3.jpg";
-import Button from "./UI/Button";
+import grafikThree from "../../pics/grafik3.jpg";
+import Button from "../UI/Button";
 
 export default function SectionFive({ bonus }) {
   return (
@@ -31,7 +31,7 @@ export default function SectionFive({ bonus }) {
        "
         >
           TOTAL WORTH OF THIS COURSE IS &nbsp;
-          <span className="line-through">₦15,000</span>&nbsp;
+          <span className="line-through">₦10,000</span>&nbsp;
         </span>
         but for the first
         <span className="text-[#004777] font-[600]">

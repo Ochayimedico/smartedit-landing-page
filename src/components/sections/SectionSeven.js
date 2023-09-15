@@ -1,6 +1,6 @@
 import { useState } from "react";
-import collapse from "../pics/collapse-button1.png";
-import expand from "../pics/expand-button1.png";
+import collapse from "../../pics/collapse-button.png";
+import expand from "../../pics/expand-button.png";
 
 export default function SectionSeven({ faqs }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,9 +29,9 @@ export default function SectionSeven({ faqs }) {
               }`}
               onClick={() => collapsibleHandler(id)}
             >
-              <h2 className="text-[#f4ff5f] font-[700] ">{faq.question}</h2>
+              <h2 className="text-[#fff] font-[700] ">{faq.question}</h2>
               <img
-                className="max-h-[22px] max-w-[22px]"
+                className="max-h-[22px] max-w-[22px] "
                 src={`${isOpen === id ? collapse : expand}`}
                 alt="collapse button"
               />

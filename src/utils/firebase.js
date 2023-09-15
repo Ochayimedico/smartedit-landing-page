@@ -1,8 +1,6 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
-import { getDatabase } from "firebase/database";
 
+import { getDatabase } from "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyBZN4KaIfjJXt09mLKS_NnscO2CX4YKlII",
   authDomain: "smartedit-email-list.firebaseapp.com",

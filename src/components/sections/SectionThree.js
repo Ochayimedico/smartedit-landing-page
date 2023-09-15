@@ -1,6 +1,6 @@
-import grafikTwo from "../pics/grafik2.jpg";
-import checkmark from "../pics/icons8-checkmark.svg";
-import thumbsup from "../pics/thumbsup.gif";
+import grafikTwo from "../../pics/grafik2.jpg";
+import checkmark from "../../pics/icons8-checkmark.svg";
+import thumbsup from "../../pics/thumbsup.gif";
 
 export default function SectionThree() {
   return (

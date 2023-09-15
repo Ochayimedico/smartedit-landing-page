@@ -10,8 +10,6 @@ export default function Footer() {
           video contents with their smartphones, make money with it and have
           fun!
         </p>
-        <div className="w-[85%] h-[1.5px]  bg-white "></div>
-
         <div className=" mt-[0.25rem] border-t-[2px] border-solid w-[90%] py-[0.75rem]">
           <p>© 2023 SmartEdit</p>
           <p>All Rights Reserved, Nigeria</p>
