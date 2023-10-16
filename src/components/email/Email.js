@@ -94,7 +94,7 @@ export default function Email() {
               type="text"
               id="email"
               ref={emailRef}
-              placeholder="Input your email address here"
+              placeholder="Type your email address"
               onChange={handleInputChange}
             ></input>
             <div className="font-bold cursor-pointer text-white bg-[#004777] py-[0.5rem] px-[0.75rem]">

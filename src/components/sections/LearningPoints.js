@@ -5,9 +5,8 @@ export default function LearningPoint() {
     {
       id: 1,
       number: "01",
-
       content:
-        "Basics of Smartphone video creation (camera settings, angles, video formats, etc).",
+        "Basics of smartphone video creation (camera settings, angles, video formats, etc).",
     },
     {
       id: 2,
